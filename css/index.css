@@ -1,0 +1,76 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 1000px;
+    height: 500px;
+    margin-left: -500px;
+    margin-top: -250px;
+    background: transparent;
+    text-align: center;
+    font-size: 0;
+}
+
+.persons {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.person {
+    width: 150px;
+    height: 200px;
+    background: blue;
+    margin: 10px;
+    display: inline-block;
+}
+
+.personImg {
+    height: 75%;
+}
+
+.personName {
+    height: 25%;
+    background: hotpink;
+}
+
+
+/*.cf:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }*/
+
+.baseline {
+    vertical-align: middle;
+    display: inline-block;
+    height: 100%;
+    width: 0;
+}
+
+.buttons {
+    position: absolute;
+    bottom: -30px;
+    right: 0;
+}
+
+.buttons .btn-group {
+    margin-left: 20px;
+}
+
+.buttons button {
+    transition: all .3s ease-out;
+}
+
+.buttons button:hover {
+    /*transform: translateY(-4px);*/
+    background: #2f8cff;
+    box-shadow: 1px 10px 20px #c9ddff;
+}
